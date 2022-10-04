@@ -9,7 +9,7 @@ Blue Sky Coding Assessment
 ### Steps to start the server
 <ol type="a">
   <li>Install the above dependencies.</li>
-  <li>Create the <strong>.env file</strong> with the same variables mentioned in <strong>'.env.example'</strong> file.</li>
+  <li>Create the <strong>.env file</strong> in root directory with the same variables mentioned in <strong>'.env.example'</strong> file.</li>
   <li>Run the <strong>Import data to MySQL.ipynb</strong> from <strong>Import data to MySQL</strong> directory.</li>
   <li>Install node dependencise with <strong>npm i</strong></li> 
   <li>Start the express server with the <strong>npm start</strong>.</li>
