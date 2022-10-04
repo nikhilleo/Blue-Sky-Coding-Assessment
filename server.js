@@ -3,6 +3,7 @@ require('dotenv').config()
 const port = process.env.PORT || 8080;
 // Imports
 const express = require("express");
+const swaggerUi = require('swagger-ui-express');
 // Middleware
 const bodyParser = require('body-parser');
 const cors = require('cors');
@@ -12,7 +13,9 @@ const sequelize = require('./database');
 const app = express();
 
 // Routes
-const co2_emission_routes = require('./routes/co2_emission')
+const co2_emission_routes = require('./routes/co2_emission');
+const swaggerSpec = require('./swagger');
+const router = require('./routes/co2_emission');
 
 // Sync Database
 sequelize.sync()
@@ -29,6 +32,8 @@ app.use(cors())
 
 // Handling routes
 app.use('/api', co2_emission_routes)
+
+app.use('/', swaggerUi.serve, swaggerUi.setup(swaggerSpec));
 
 /** catch 404 and forward to error handler */
 app.use("*", handleNotFoundError);  
