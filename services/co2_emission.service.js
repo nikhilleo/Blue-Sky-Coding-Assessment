@@ -25,7 +25,7 @@ module.exports = {
     async getEmissionForQuery(id,queryParams){
         try {
             let { startYear, endYear, category } = queryParams;
-            category = category.split(',')
+            category = category ? category.split(',') : []
             if(!startYear){
                 throw errorMessages.noStartYearProvided;
             }
