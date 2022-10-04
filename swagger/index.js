@@ -22,6 +22,10 @@ const swaggerDefinition = {
       url: `http://localhost:${process.env.PORT}`,
       description: 'Development server',
     },
+    {
+      url: `https://blue-sky-coding-assessment.herokuapp.com/`,
+      description: 'Production server',
+    },
   ],
 };
 
