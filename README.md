@@ -30,3 +30,7 @@ Blue Sky Coding Assessment
 - Fun part was using Python, Pandas to clean the data and also writing all the data in database using Python, also I had never tried to use the .env variables in the notebook. So I learned something new in the assignment.
 ### What do you think is wrong with this task or could be made better in this task?
 - I think the task was good. To make it better it would have been great to add some more APIs to build.
+
+![image](https://user-images.githubusercontent.com/47879184/194319294-e9bb46ce-7781-4b96-a315-dd24c405af0a.png)
+
+![image](https://user-images.githubusercontent.com/47879184/194319401-6cbfcf19-12ae-4cd5-82c5-b8f2fd5deb20.png)
