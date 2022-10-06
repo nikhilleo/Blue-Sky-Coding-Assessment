@@ -24,6 +24,7 @@ Blue Sky Coding Assessment
   <li>Nodejs</li>
   <li>Express.js</li> 
   <li>MySQL</li>
+  <li>Redis</li>
 </ol>
 
 ### What was the most challenging part?
