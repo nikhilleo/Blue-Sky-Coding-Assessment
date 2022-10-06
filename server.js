@@ -15,7 +15,6 @@ const app = express();
 // Routes
 const co2_emission_routes = require('./routes/co2_emission');
 const swaggerSpec = require('./swagger');
-const router = require('./routes/co2_emission');
 
 // Sync Database
 sequelize.sync()

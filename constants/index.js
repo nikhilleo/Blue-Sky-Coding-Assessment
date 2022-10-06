@@ -5,6 +5,11 @@ const errorMessages = Object.freeze({
     noCategoryProvided: 'No category provided, please provide at least one category from the following: [CO2,GHG-CO2,GHG,HFC,CH4,HF3,N2Os,PFCs,SF6,HFC-PFC-mix]'
 })
 
+const redisKeys = {
+    countries: 'countries'
+}
+
 module.exports = {
-    errorMessages
+    errorMessages,
+    redisKeys
 }
