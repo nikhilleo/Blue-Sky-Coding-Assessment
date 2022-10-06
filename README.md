@@ -1,6 +1,8 @@
 # Blue-Sky-Coding-Assessment
 Blue Sky Coding Assessment
 
+## Deployed Heroku URL : https://blue-sky-coding-assessment.herokuapp.com/
+
 ### Python Dependencies:
 - !pip install sqlalchemy
 - !pip install sqlalchemy-utils
